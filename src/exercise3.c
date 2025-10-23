@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
     
     for(int i = 0; i < 10; i++) {
         int x = (10 - k + i) % 10;
-        printf("%.2f ", a[x]);
+        printf("%.3f ", a[x]);
     }
     printf("\n");
     return 0;

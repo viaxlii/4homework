@@ -10,11 +10,11 @@ int main(int argc, char** argv) {
     }
     
     for(int i = 0; i < k; i++) {
-        printf("%.2f ", a[i]);
+        printf("%.3f ", a[i]);
     }
     printf("%.2f ", x);
     for(int i = k; i < 9; i++) {
-        printf("%.2f ", a[i]);
+        printf("%.3f ", a[i]);
     }
     printf("\n");
     return 0;

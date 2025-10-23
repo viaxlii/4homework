@@ -8,7 +8,7 @@ int main(int argc, char** argv) {
     }
     
     for(int i = 9; i > -1; i--) {
-        printf("%.2f ", a[i]);
+        printf("%.3f ", a[i]);
     }
     printf("\n");
     return 0;

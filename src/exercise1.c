@@ -8,6 +8,6 @@ int main(int argc, char** argv) {
         sum += a[i];
     }
     
-    printf("%.2f\n", sum / 10);
+    printf("%.3f\n", sum / 10);
     return 0;
 }
